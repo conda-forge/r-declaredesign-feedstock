@@ -1,11 +1,11 @@
-About r-declaredesign
-=====================
+About r-declaredesign-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-declaredesign-feedstock/blob/main/LICENSE.txt)
 
 Home: https://declaredesign.org/r/declaredesign/, https://github.com/DeclareDesign/DeclareDesign
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-declaredesign-feedstock/blob/main/LICENSE.txt)
 
 Summary: Researchers can characterize and learn about the properties of research designs before implementation using `DeclareDesign`. Ex ante declaration and diagnosis of designs can help researchers clarify the strengths and limitations of their designs and to improve their properties, and can help readers evaluate a research strategy prior to implementation and without access to results. It can also make it easier for designs to be shared, replicated, and critiqued.
 
