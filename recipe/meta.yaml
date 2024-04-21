@@ -1,4 +1,4 @@
-{% set version = "1.0.8" %}
+{% set version = "1.0.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DeclareDesign_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DeclareDesign/DeclareDesign_{{ version }}.tar.gz
-  sha256: 0aae32012b491c502ced87ce53802f07a4f743ecc6a16579ea5f40e183a8dcb4
+  sha256: d46ec9de79d3a5f479e50ca53c3c539657b7896f073e671640a931f2e60f2c38
 
 build:
   merge_build_host: true  # [win]
