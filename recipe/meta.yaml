@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DeclareDesign_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DeclareDesign/DeclareDesign_{{ version }}.tar.gz
-  sha256: e335ffe72ca6afc9877be329b06d70b7f90bbb5a59c86e309f2ea0fbf9c630aa
+  sha256: e658f4851dc6a56fc31d87067fa5628a1ede84772ad4d4118b4895208a4eb84b
 
 build:
   number: 0
